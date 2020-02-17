@@ -1196,8 +1196,8 @@ img {
 ---------------------------------------------------------------- */
 @-webkit-keyframes animEntete {
   from {
-    -webkit-transform: translateX(1000px);
-            transform: translateX(1000px);
+    -webkit-transform: translateX(500px);
+            transform: translateX(500px);
   }
   to {
     -webkit-transform: translateX(0px);
@@ -1206,8 +1206,8 @@ img {
 }
 @keyframes animEntete {
   from {
-    -webkit-transform: translateX(1000px);
-            transform: translateX(1000px);
+    -webkit-transform: translateX(500px);
+            transform: translateX(500px);
   }
   to {
     -webkit-transform: translateX(0px);
@@ -1218,7 +1218,58 @@ img {
 .animEntete {
   -webkit-animation: animEntete 1s;
           animation: animEntete 1s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
 }
 
 /*-------------------------------------------------------------- */
+.animElmUn {
+  -webkit-animation: animElmUn 1 infinite;
+          animation: animElmUn 1 infinite;
+}
+
+@-webkit-keyframes animElmUn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes animElmUn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.animElmDeux {
+  -webkit-animation: animElmDeux 1 infinite;
+          animation: animElmDeux 1 infinite;
+}
+
+@-webkit-keyframes animElmDeux {
+  from {
+    color: red;
+    font-size: 12px;
+  }
+  to {
+    color: blue;
+    font-size: 25px;
+  }
+}
+
+@keyframes animElmDeux {
+  from {
+    color: red;
+    font-size: 12px;
+  }
+  to {
+    color: blue;
+    font-size: 25px;
+  }
+}
 /*# sourceMappingURL=style.css.map */
