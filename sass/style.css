@@ -1026,6 +1026,7 @@ desktop : 4 colonnes
   overflow: hidden;
   width: 100%;
   height: 400px;
+  overflow: hidden;
 }
 
 .slider {
@@ -1060,7 +1061,7 @@ scroll-snap-type: mandatory;
 }
 
 .slides div h2 {
-  font-size: 10px;
+  font-size: 20px;
 }
 
 .slides div p {
