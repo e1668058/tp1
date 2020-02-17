@@ -1272,4 +1272,12 @@ img {
     font-size: 25px;
   }
 }
+
+.entete:nth-child(1) {
+  color: #772f2f;
+}
+
+.entete:nth-child(2) {
+  color: #3498db;
+}
 /*# sourceMappingURL=style.css.map */
