@@ -11,17 +11,17 @@
     }
 }
 
-// .animElmDeux {
-//     animation : animElmDeux 1 infinite;
-// }
+.animElmDeux {
+    animation : animElmDeux 1 infinite;
+}
 
-// @keyframes animElmDeux{
-//     from {
-//         color: red;
-//         font-size: 12px;
-//     }
-//     to {
-//         color: blue;
-//         font-size: 25px;
-//     }
-// }
+@keyframes animElmDeux{
+    from {
+        color: red;
+        font-size: 12px;
+    }
+    to {
+        color: blue;
+        font-size: 25px;
+    }
+}
