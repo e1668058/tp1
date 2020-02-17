@@ -1276,11 +1276,11 @@ img {
 }
 
 .entete:nth-child(1) {
-  color: #772f2f;
+  color: #3498db;
 }
 
 .entete:nth-child(2) {
-  color: #3498db;
+  color: #772f2f;
 }
 
 .entete {
